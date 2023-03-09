@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: lightgray;
+        animation-name: avi;
+        animation-duration: 5s;
+        position: relative;
+        animation-iteration-count: 3;
+        animation-timing-function: ease-in-out;
+        animation-direction: reverse;
+    }
+    @keyframes avi{
+        form{
+            height:200px;
+            width: 300px;
+        }
+
+        to{
+            width: 1000px;
+            height:1000px;
+        }
+        /* 0%{
+            top: 0px;
+            left: 0px;
+        }
+        25%{
+            top:100px;
+            left:0px;
+        }
+        50%{
+            top:0px;
+            left: 100px;
+        }
+        75%{
+            top:100px;
+            left: 250px;
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+        } */
+    }
+</style>
+<body>
+    <div class="box">
+
+    </div>
+    
+</body>
+</html>
